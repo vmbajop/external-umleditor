@@ -1,5 +1,9 @@
 language: java
   
+addons:
+  ssh_known_hosts:
+  - ftp.interlis.ch
+
 branches:
   only:
     - master
