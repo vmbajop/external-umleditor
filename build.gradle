@@ -119,8 +119,8 @@ dependencies {
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
     
-    deployerJars "org.apache.maven.wagon:wagon-ftp:3.3.3"
-    deployerJars "org.apache.maven.wagon:wagon-ssh:3.3.3"
+    deployerJars "org.apache.maven.wagon:wagon-ftp:3.5.1"
+    deployerJars "org.apache.maven.wagon:wagon-ssh:3.5.1"
     ftpAntTask "org.apache.ant:ant-commons-net:1.10.7"
 }
 
